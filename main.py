@@ -36,7 +36,7 @@ for page in range(1, 10):
                 'Player Nations' : nation,
                 'Player Leagues' : league,
             }
-            #print(data_dict)
+            print(data_dict)
             datas.append(data_dict)
             head = ['Player Names', 'Player Ratings', 'The Best Positions', 'Player Clubs', 'Player Nations', 'Player League']
             write = csv.writer(open('futbin_item.csv', 'w', newline=''))
